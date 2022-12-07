@@ -1,0 +1,25 @@
+_id: req_wrk_b69a3c58fc81456fbcfc6255f8538958f021bcd3
+type: Request
+parentId: fld_wrk_b69a3c58fc81456fbcfc6255f85389583a21295d
+modified: 1640063911130
+created: 1626953515576
+url: "{{ base_url }}/store/order/{{ orderId }}"
+name: Find purchase order by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2aaaf43fd7ae4b99816b719f7b73716c
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1626953515576
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
