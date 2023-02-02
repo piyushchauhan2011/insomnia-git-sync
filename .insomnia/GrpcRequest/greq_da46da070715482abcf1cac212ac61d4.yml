@@ -1,0 +1,15 @@
+_id: greq_da46da070715482abcf1cac212ac61d4
+type: GrpcRequest
+parentId: wrk_b69a3c58fc81456fbcfc6255f8538958
+modified: 1675326491011
+created: 1675326491011
+url: ""
+name: New Request
+description: ""
+protoFileId: ""
+protoMethodName: ""
+metadata: []
+body:
+  text: "{}"
+metaSortKey: -1675326491011
+isPrivate: false

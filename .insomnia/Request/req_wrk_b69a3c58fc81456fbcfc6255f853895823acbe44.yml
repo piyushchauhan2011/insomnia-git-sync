@@ -1,11 +1,11 @@
 _id: req_wrk_b69a3c58fc81456fbcfc6255f853895823acbe44
 type: Request
 parentId: fld_wrk_b69a3c58fc81456fbcfc6255f85389581b034c38
-modified: 1644266905093
+modified: 1675325721321
 created: 1626953515586
 url: "{{ base_url }}/pet"
 name: Add a new pet to the store
-description: ""
+description: something
 method: POST
 body:
   mimeType: application/json
