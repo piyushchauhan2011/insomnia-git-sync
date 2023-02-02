@@ -1,32 +1,32 @@
-_id: req_wrk_b69a3c58fc81456fbcfc6255f853895823acbe44
+_id: req_6dc3f5b4c67b4b7287a830468b9c63c2
 type: Request
 parentId: fld_wrk_b69a3c58fc81456fbcfc6255f85389581b034c38
-modified: 1675325721321
-created: 1626953515586
+modified: 1675325837683
+created: 1675325813164
 url: "{{ base_url }}/pet"
-name: Add a new pet to the store
+name: Add a new pet to the store v2
 description: something
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "id": 0,
+      "id": 1,
       "category": {
         "id": 0,
         "name": "string"
       },
-      "name": "doggie",
+      "name": "doggie 2",
       "photoUrls": [
         "string"
       ],
       "tags": [
         {
-          "id": 0,
+          "id": 1,
           "name": "string"
         }
       ],
-      "status": "string"
+      "status": "open"
     }
 parameters: []
 headers:
@@ -34,7 +34,7 @@ headers:
     value: application/json
     id: pair_b48db16694764a38b685bd766600c168
 authentication: {}
-metaSortKey: -1626953515586
+metaSortKey: -1626953515585
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
