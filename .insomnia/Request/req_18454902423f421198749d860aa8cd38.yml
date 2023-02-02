@@ -1,0 +1,30 @@
+_id: req_18454902423f421198749d860aa8cd38
+type: Request
+parentId: wrk_b69a3c58fc81456fbcfc6255f8538958
+modified: 1675326807833
+created: 1675326497252
+url: https://api.github.com/graphql
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tviewer {\n\t\tlogin\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_79b5ee2678854efaa8146cf0799d14ec
+  - id: pair_f90ce80e48744700add3b8233b2c9096
+    name: Authorization
+    value: Bearer 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
+    description: ""
+authentication: {}
+metaSortKey: -1675326497252
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
