@@ -1,7 +1,7 @@
 _id: req_wrk_b69a3c58fc81456fbcfc6255f8538958443ac9e7
 type: Request
 parentId: fld_wrk_b69a3c58fc81456fbcfc6255f85389583a21295d
-modified: 1626953515578
+modified: 1675325412835
 created: 1626953515578
 url: "{{ base_url }}/store/inventory"
 name: Returns pet inventories by status
